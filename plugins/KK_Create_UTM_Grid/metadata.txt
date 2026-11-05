@@ -5,7 +5,7 @@ qgisMaximumVersion=4.99
 description=Create a UTM (MGRS) grid, ranging from 10 km to 1 m, within a specified area.：指定範囲に10kmから1mまでのUTM（MGRS）グリッドを作成します。
 about=UTMグリッドは、日本で利用されるグリッドで、世界的には「MGRS」グリッドと呼ばれるものと同じものです。緯度経度よりも簡便なコードで位置を特定できるため、捜索や災害時の位置情報の共有に利用されています。レイヤ名を変更しなければ、領域をずらしてグリッドを追加して作成することが可能です。UTMゾーンが分かれる場合は、ゾーンごとにレイヤを分けて作成します。レイヤのデフォルトスタイルは、プラグイン本体と同じフォルダに有る「mgrs_style.qml」に保存できます。
 
-version=0.9.0
+version=0.9.1
 
 author=Kouichi Kita
 
@@ -19,4 +19,5 @@ category=Vector
 tags=QGIS,MGRS,UTM,grid,mesh
 
 changelog=
+    0.9.1 - 2026-11-05 - Qt6対応を修正
     0.9.0 - 2026-10-29 - 初版公開

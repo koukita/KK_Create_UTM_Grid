@@ -1091,9 +1091,8 @@ class KKCreateUtmGridPlugin:
                 continue
             if not candidate.isValid():
                 continue
-            # QGIS 3.34とQGIS 4の列挙型差を避けるため、
-            # QgsWkbTypes.PolygonGeometryを基準に判定します。
-            if candidate.geometryType() != QgsWkbTypes.PolygonGeometry:
+            # Qt6/QGIS 4では列挙型を公開型名で指定します。
+            if candidate.geometryType() != QgsWkbTypes.GeometryType.PolygonGeometry:
                 continue
 
             candidate_fields = {field.name() for field in candidate.fields()}
