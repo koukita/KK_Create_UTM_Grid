@@ -19,5 +19,7 @@ category=Vector
 tags=QGIS,MGRS,UTM,grid,mesh
 
 changelog=
-    0.9.1 - 2026-11-05 - Qt6対応を修正
-    0.9.0 - 2026-10-29 - 初版公開
+    0.9.1 - 2026-11-05 
+    - Qt6対応を修正
+    0.9.0 - 2026-10-29 
+    - 初版公開
